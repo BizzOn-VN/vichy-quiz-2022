@@ -317,6 +317,16 @@ section {
   @media screen and (max-width: 480px) {
     .khtn {
       width: 36%; } }
+  .khtn.khtn-hl {
+    width: 17.1%;
+    position: relative;
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+         -o-transform: translateX(0%);
+            transform: translateX(0%);
+    left: 0px;
+    display: table;
+    margin: 0 auto; }
 
 .blk-question {
   position: relative;
@@ -794,3 +804,162 @@ section {
   @media screen and (max-width: 992px) {
     .btn-result a {
       font-size: 4.5vw; } }
+
+.page-register {
+  position: relative; }
+  @media screen and (max-width: 992px) {
+    .page-register {
+      padding: 0px 0px 7vw; }
+      .page-register .khtn-hl {
+        margin: 0;
+        position: absolute;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+             -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+        left: 50%;
+        bottom: 7%; } }
+
+.caption-register .text-inner {
+  width: 50%;
+  margin: 0 auto;
+  display: table; }
+.caption-register strong.title {
+  display: block;
+  font-size: 1.5vw;
+  margin: 0px 0px 15px; }
+@media screen and (max-width: 992px) {
+  .caption-register {
+    width: 115%;
+    margin-left: -7.5%; }
+    .caption-register .text-inner {
+      width: 100%; }
+    .caption-register strong.title {
+      font-size: 6.2vw;
+      line-height: 1.24em; }
+      .caption-register strong.title span {
+        display: block; }
+    .caption-register p {
+      font-size: 2.6vw; }
+      .caption-register p strong {
+        display: block; } }
+
+.btn-submit-register {
+  padding: 0.2vw 0px 3vw; }
+  .btn-submit-register .submit {
+    background: #5c5c5c;
+    color: #FFF;
+    padding: 0.8vw 1.4vw;
+    font-size: 1.5vw;
+    display: table;
+    margin: 0 auto; }
+  @media screen and (max-width: 992px) {
+    .btn-submit-register {
+      padding: 2vw 0px 4vw; }
+      .btn-submit-register .submit {
+        font-size: 3.5vw;
+        padding: 1.8vw 2.4vw; } }
+
+.form-register .blk-input {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .form-register .blk-input .input-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .form-register .blk-input .md-row {
+    margin: 0px 0px 1.3vw;
+    width: 32%; }
+    .form-register .blk-input .md-row input[type="text"] {
+      width: 100%;
+      height: 3.7vw;
+      border: 1px solid #666666;
+      padding: 0px 15px; }
+    .form-register .blk-input .md-row label {
+      display: block;
+      text-align: left;
+      width: 100%;
+      font-size: 1.1vw;
+      margin-bottom: 0.3em; }
+  .form-register .blk-input .text {
+    text-align: center;
+    padding: 0px 0px; }
+.form-register .text-fill {
+  margin: 0px 0px 1.6vw; }
+.form-register .checkbox-center {
+  display: block; }
+  .form-register .checkbox-center .ui.checkbox {
+    margin: 0 auto;
+    display: table; }
+    .form-register .checkbox-center .ui.checkbox label {
+      font-size: 1.1vw;
+      color: #333333;
+      padding-left: 1.4vw; }
+      .form-register .checkbox-center .ui.checkbox label:before {
+        width: 1vw;
+        height: 1vw;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+             -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+        border-radius: 0px;
+        border: 1px solid #333 !important; }
+      .form-register .checkbox-center .ui.checkbox label:after {
+        content: "";
+        display: block;
+        background: url(../images/icon-checked.png) center center no-repeat;
+        -webkit-background-size: 80% 80%;
+                background-size: 80% 80%;
+        left: 0px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+             -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+        width: 1vw;
+        height: 1vw; }
+  @media screen and (max-width: 992px) {
+    .form-register .checkbox-center .ui.checkbox label {
+      padding-left: 2.7vw;
+      font-size: 2.5vw; }
+      .form-register .checkbox-center .ui.checkbox label:before {
+        width: 2vw;
+        height: 2vw; }
+      .form-register .checkbox-center .ui.checkbox label:after {
+        width: 2vw;
+        height: 2vw; } }
+@media screen and (max-width: 992px) {
+  .form-register .blk-input {
+    font-size: 2.5vw; }
+    .form-register .blk-input .md-row {
+      margin: 0px 0px 4vw; }
+      .form-register .blk-input .md-row.mb-100 {
+        width: 100%; }
+      .form-register .blk-input .md-row.mb-39 {
+        width: 39%; }
+      .form-register .blk-input .md-row.mb-56 {
+        width: 56%; }
+      .form-register .blk-input .md-row input[type="text"] {
+        height: 6vw; }
+      .form-register .blk-input .md-row label {
+        font-size: 2.5vw; }
+  .form-register .text-fill p {
+    font-size: 2.5vw; } }

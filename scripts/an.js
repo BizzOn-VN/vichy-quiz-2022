@@ -23,7 +23,7 @@ jQuery(document).on("ready",function () {
 });
 
  new WOW().init();
-
+$('.ui.checkbox').checkbox();
 
 
  var App = {
