@@ -953,7 +953,7 @@ section {
     text-transform: uppercase; }
     .btn-result a:hover {
       color: #FFF;
-      background: #2a723b; }
+      background: #303030 !important; }
   @media screen and (max-width: 992px) {
     .btn-result a {
       font-size: 4.5vw; } }
