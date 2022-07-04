@@ -1,6 +1,7 @@
 /* module css 01
  -----------------------------------------------------*/
 section {
+  overflow: hidden;
   display: none; }
   section.active-section {
     display: block; }
@@ -96,19 +97,24 @@ section {
     color: #FFF;
     text-shadow: 1px 2px 2px #cd6d3f; }
     .blk-center-home span.futura_bold {
-      font-size: 2.5em;
+      font-size: 5.9em;
       line-height: 1em;
-      margin-bottom: 0.2em; } }
+      margin-bottom: 0.2em; }
+    .blk-center-home span.hl {
+      font-size: 3.7em;
+      line-height: 1.4em;
+      margin-bottom: 0.5vw; } }
 @media screen and (max-width: 480px) {
   .blk-center-home {
     padding-top: 75%; }
     .blk-center-home span.futura_bold {
-      font-size: 2.3em;
+      font-size: 5.9em;
       line-height: 1.1em;
       margin-bottom: 0.2em; }
     .blk-center-home span.hl {
-      font-size: 1.7em;
-      line-height: 1.4em; } }
+      font-size: 3.7em;
+      line-height: 1.4em;
+      margin-bottom: 0.5vw; } }
 
 .blk-img {
   width: 50%;
@@ -193,10 +199,12 @@ section {
     @media screen and (max-width: 992px) {
       .btn-home a {
         background: rgba(194, 190, 182, 0.6);
-        color: #FFF; } }
+        color: #FFF;
+        font-size: 3.5em;
+        border-radius: 12px; } }
     @media screen and (max-width: 480px) {
       .btn-home a {
-        font-size: 1.8em;
+        font-size: 3.5em;
         border-radius: 12px; } }
   .btn-home img {
     display: inline-block;
@@ -786,7 +794,9 @@ section {
 .btn-result {
   display: block;
   text-align: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 5; }
   .btn-result a {
     display: inline-block;
     text-align: center;
@@ -809,7 +819,9 @@ section {
   position: relative; }
   @media screen and (max-width: 992px) {
     .page-register {
-      padding: 0px 0px 7vw; }
+      background: url(../images/bg-result.jpg) top center no-repeat #f0f0f0;
+      -webkit-background-size: 100% auto;
+              background-size: 100% auto; }
       .page-register .khtn-hl {
         margin: 0;
         position: absolute;
@@ -818,7 +830,7 @@ section {
              -o-transform: translateX(-50%);
                 transform: translateX(-50%);
         left: 50%;
-        bottom: 7%; } }
+        bottom: 3%; } }
 
 .caption-register .text-inner {
   width: 50%;
@@ -947,19 +959,21 @@ section {
         width: 2vw;
         height: 2vw; } }
 @media screen and (max-width: 992px) {
-  .form-register .blk-input {
-    font-size: 2.5vw; }
-    .form-register .blk-input .md-row {
-      margin: 0px 0px 4vw; }
-      .form-register .blk-input .md-row.mb-100 {
-        width: 100%; }
-      .form-register .blk-input .md-row.mb-39 {
-        width: 39%; }
-      .form-register .blk-input .md-row.mb-56 {
-        width: 56%; }
-      .form-register .blk-input .md-row input[type="text"] {
-        height: 6vw; }
-      .form-register .blk-input .md-row label {
-        font-size: 2.5vw; }
-  .form-register .text-fill p {
-    font-size: 2.5vw; } }
+  .form-register {
+    padding-bottom: 16vw; }
+    .form-register .blk-input {
+      font-size: 2.5vw; }
+      .form-register .blk-input .md-row {
+        margin: 0px 0px 4vw; }
+        .form-register .blk-input .md-row.mb-100 {
+          width: 100%; }
+        .form-register .blk-input .md-row.mb-39 {
+          width: 39%; }
+        .form-register .blk-input .md-row.mb-56 {
+          width: 56%; }
+        .form-register .blk-input .md-row input[type="text"] {
+          height: 6vw; }
+        .form-register .blk-input .md-row label {
+          font-size: 2.5vw; }
+    .form-register .text-fill p {
+      font-size: 2.5vw; } }

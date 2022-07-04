@@ -29,7 +29,7 @@ $('.ui.checkbox').checkbox();
  var App = {
      set_min_height_section: function () {
      	if($(window).width()>992){
-     		var window_width=$(window).width()*0.5;
+     		var window_width=$(window).width()*0.3;
      		$(".page-nomal").css("min-height",window_width);
      		$(".blk-content").css("min-height",window_width);
      		$(".blk-img").css("min-height",window_width);
