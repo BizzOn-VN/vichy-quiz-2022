@@ -33,6 +33,7 @@ $('.ui.checkbox').checkbox();
      		$(".page-nomal").css("min-height",window_width);
      		$(".blk-content").css("min-height",window_width);
      		$(".blk-img").css("min-height",window_width);
+     		$("#page-register").css("min-height",$(window).width()*0.5);
      	}
      	if($(window).width()<992){
      		var window_width=$(window).width()*1.3;
@@ -90,6 +91,9 @@ $('.ui.checkbox').checkbox();
      		var data_result=$(this).attr("data-result");
      		$(this).closest(".page-main").find(".result-item").removeClass("active-result-item");
      		$(data_result).addClass("active-result-item");
+
+     		var title_form_fill=$(this).attr("title-form-fill");
+     		$(".title-form-fill").text(title_form_fill);
      	})
      },
     progress_bar:function(){

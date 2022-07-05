@@ -1028,6 +1028,18 @@ section {
 
 .page-register {
   position: relative; }
+  .page-register .container-inner {
+    padding-bottom: 4vw; }
+  .page-register .khtn-hl {
+    margin: 0;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+    bottom: 3%;
+    width: 13%; }
   @media screen and (max-width: 992px) {
     .page-register {
       background: url(../images/bg-result.jpg) top center no-repeat #f0f0f0;
@@ -1041,7 +1053,8 @@ section {
              -o-transform: translateX(-50%);
                 transform: translateX(-50%);
         left: 50%;
-        bottom: 3%; } }
+        bottom: 3%;
+        width: 17.1%; } }
 
 .caption-register .text-inner {
   width: 50%;
@@ -1053,8 +1066,8 @@ section {
   margin: 0px 0px 15px; }
 @media screen and (max-width: 992px) {
   .caption-register {
-    width: 115%;
-    margin-left: -7.5%; }
+    width: 100%;
+    margin-left: 0%; }
     .caption-register .text-inner {
       width: 100%; }
     .caption-register strong.title {
@@ -1068,7 +1081,7 @@ section {
         display: block; } }
 
 .btn-submit-register {
-  padding: 0.2vw 0px 3vw; }
+  padding: 0.2vw 0px 0vw; }
   .btn-submit-register .submit {
     background: #5c5c5c;
     color: #FFF;
@@ -1212,3 +1225,15 @@ section {
       font-size: 4.8vw; }
       .text-product-da-tham-nam span.futura_bold {
         font-size: 6.5vw; } }
+
+.error {
+  font-size: 1vw;
+  text-align: center;
+  color: red !important; }
+  @media screen and (max-width: 992px) {
+    .error {
+      font-size: 2.5vw; } }
+
+@media screen and (max-width: 992px) {
+  .break-down {
+    display: block; } }
