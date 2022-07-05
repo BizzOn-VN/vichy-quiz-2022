@@ -1020,7 +1020,8 @@ section {
     padding: 0.8vw 1.4vw;
     font-size: 1.5vw;
     display: table;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border: none; }
   @media screen and (max-width: 992px) {
     .btn-submit-register {
       padding: 2vw 0px 4vw; }
@@ -1195,3 +1196,47 @@ section {
         margin-right: 22px; }
       #the-le .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
         background-color: #6c757d; } }
+
+.md-submit {
+  display: none;
+  background: #f0f0f0 !important;
+  min-width: 250px;
+  max-width: 800px;
+  overflow: hidden; }
+  .md-submit .content-popup {
+    padding: 0px 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2vw; }
+    .md-submit .content-popup img {
+      width: 15%;
+      margin-bottom: 10px; }
+    .md-submit .content-popup .caption {
+      text-transform: uppercase;
+      font-size: 1.3vw;
+      color: #ea7f3e;
+      margin-bottom: 1.1vw; }
+  .md-submit .fancy-close {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: 130%;
+    text-transform: uppercase;
+    color: #FFE39C;
+    width: auto;
+    height: auto;
+    border: 1px solid #FFE39C;
+    padding: 10px 30px;
+    font-weight: 700;
+    opacity: 1; }
+  @media screen and (max-width: 992px) {
+    .md-submit .content-popup {
+      font-size: 3vw; }
+      .md-submit .content-popup .caption {
+        font-size: 3.5vw;
+        margin-bottom: 2vw; } }
+  @media screen and (max-width: 576px) {
+    .md-submit {
+      padding: 44px 2vw 44px 2vw; } }
