@@ -92,6 +92,7 @@ $(".content-the-le").mCustomScrollbar({
      		var data_question=$(this).attr("data-question");
      		$(this).parents("section").find(".ico-next").attr("data-src",data_question);
      		$(".prev-result").attr("data-src",data_question);
+     		$(".cta-back-result").attr("data-src",data_question);
 
 
      		var data_result=$(this).attr("data-result");
