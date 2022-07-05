@@ -24,7 +24,10 @@ jQuery(document).on("ready",function () {
 
  new WOW().init();
 $('.ui.checkbox').checkbox();
-
+$('[data-fancybox]').fancybox();
+$(".content-the-le").mCustomScrollbar({
+	theme:"dark",
+});
 
  var App = {
      set_min_height_section: function () {
@@ -77,6 +80,7 @@ $('.ui.checkbox').checkbox();
      		        step: function (now) {
      		            $(this).text(Math.ceil(now));
      		        }
+
      		    });
      		});
      	})
@@ -103,13 +107,13 @@ $('.ui.checkbox').checkbox();
     			$('.skillbar').each(function(){
     				jQuery(this).find('.skillbar-bar').animate({
     					width:jQuery(this).attr('data-percent')
-    				},1200);
+    				},900);
     			});
     			$('.count').each(function () {
     			    $(this).prop('Counter',0).animate({
     			        Counter: $(this).text()
     			    }, {
-    			        duration: 1200,
+    			        duration: 900,
     			        easing: 'swing',
     			        step: function (now) {
     			            $(this).text(Math.ceil(now));

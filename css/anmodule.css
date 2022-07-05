@@ -1166,6 +1166,32 @@ section {
     .error {
       font-size: 2.5vw; } }
 
+.logo-loreal a {
+  display: inline-block;
+  width: 30%;
+  min-width: 200px;
+  margin-bottom: 1.5em; }
+  .logo-loreal a img {
+    width: 100%; }
+
 @media screen and (max-width: 992px) {
   .break-down {
     display: block; } }
+#the-le {
+  overflow: hidden;
+  padding: 44px 30px 44px 44px; }
+  #the-le .mCSB_scrollTools .mCSB_draggerRail {
+    width: 6px; }
+  #the-le .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px; }
+  @media screen and (max-width: 992px) {
+    #the-le {
+      font-size: 2.9vw;
+      max-height: 90vh; } }
+  @media screen and (max-width: 768px) {
+    #the-le {
+      padding: 44px 15px 44px 30px; }
+      #the-le .mCSB_inside > .mCSB_container {
+        margin-right: 22px; }
+      #the-le .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        background-color: #6c757d; } }
