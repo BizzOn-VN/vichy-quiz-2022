@@ -29,7 +29,7 @@ $(".content-the-le").mCustomScrollbar({
 	theme:"dark",
 });
 //gọi popup dăng ký thành công 
-$("#success").fancybox().trigger('click');
+// $("#success").fancybox().trigger('click');
 
  var App = {
      set_min_height_section: function () {
