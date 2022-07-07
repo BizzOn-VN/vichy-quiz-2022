@@ -32,9 +32,10 @@ $(".content-the-le").mCustomScrollbar({
 
 function showMessage(set_text_alert) {
     $(".text-alert").text(set_text_alert);
+    $("#popup-alert").fancybox().trigger('click');
 }
 showMessage("Chào mừng bạn đến với Vichy");
-$("#popup-alert").fancybox().trigger('click');
+
 
  var App = {
      set_min_height_section: function () {
