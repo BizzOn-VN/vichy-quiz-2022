@@ -188,7 +188,7 @@ section {
                   animation-name: none !important;
           visibility: visible !important; }
       .blk-img.bg-tham-nam {
-        background: url(../images/bg-tham-nam-mb.jpg) no-repeat center center;
+        background: url(../images/bg-tham-nam-mb.jpg) no-repeat center;
         -webkit-background-size: cover;
                 background-size: cover; }
         .blk-img.bg-tham-nam.wow {
@@ -1316,3 +1316,7 @@ section {
   @media screen and (max-width: 992px) {
     #page-tham-nam .blk-img {
       height: 100%; } }
+
+@media screen and (max-width: 992px) {
+  .result-tham-nam .btn-result {
+    padding-top: 2.5em; } }
