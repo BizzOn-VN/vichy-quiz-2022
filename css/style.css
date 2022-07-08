@@ -229,7 +229,7 @@ section {
       left: 0px;
       width: 100%; }
       .blk-img.blk-img-select {
-        background: url(../images/bg-page-select-mb.jpg) no-repeat left top;
+        background: url(../images/bg-page-select-mb.jpg) no-repeat center center;
         -webkit-background-size: cover;
                 background-size: cover; }
         .blk-img.blk-img-select.wow {
@@ -238,7 +238,7 @@ section {
                   animation-name: none !important;
           visibility: visible !important; }
       .blk-img.bg-mun-noi-tiet {
-        background: url(../images/bg-mun-noi-tiet-mb.jpg) no-repeat left top;
+        background: url(../images/bg-mun-noi-tiet-mb.jpg) no-repeat center center;
         -webkit-background-size: cover;
                 background-size: cover; }
         .blk-img.bg-mun-noi-tiet.wow {
@@ -247,7 +247,7 @@ section {
                   animation-name: none !important;
           visibility: visible !important; }
       .blk-img.bg-da-stress {
-        background: url(../images/bg-da-stress-mb.jpg) no-repeat left top;
+        background: url(../images/bg-da-stress-mb.jpg) no-repeat center center;
         -webkit-background-size: cover;
                 background-size: cover; }
         .blk-img.bg-da-stress.wow {
@@ -256,7 +256,7 @@ section {
                   animation-name: none !important;
           visibility: visible !important; }
       .blk-img.bg-tham-nam {
-        background: url(../images/bg-tham-nam-mb.jpg) no-repeat left top;
+        background: url(../images/bg-tham-nam-mb.jpg) no-repeat center center;
         -webkit-background-size: cover;
                 background-size: cover; }
         .blk-img.bg-tham-nam.wow {
@@ -264,6 +264,23 @@ section {
                -o-animation-name: none !important;
                   animation-name: none !important;
           visibility: visible !important; } }
+  @media screen and (max-width: 480px) {
+    .blk-img.blk-img-select {
+      background: url(../images/bg-page-select-mb.jpg) no-repeat center bottom;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .blk-img.bg-mun-noi-tiet {
+      background: url(../images/bg-mun-noi-tiet-mb.jpg) no-repeat center bottom;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .blk-img.bg-da-stress {
+      background: url(../images/bg-da-stress-mb.jpg) no-repeat center bottom;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .blk-img.bg-tham-nam {
+      background: url(../images/bg-tham-nam-mb.jpg) no-repeat left top;
+      -webkit-background-size: cover;
+              background-size: cover; } }
 
 .btn-home {
   text-align: center; }
@@ -527,7 +544,7 @@ section {
         font-family: 'SFUFutura';
         color: #FFF;
         font-size: 4.4vw;
-        padding: 1.5% 10px;
+        padding: 1.5% 1em;
         text-shadow: 3px 2px 3px #c18f7f; } }
   @media screen and (max-width: 480px) {
     .form-question.form-quizz form {
@@ -1349,3 +1366,21 @@ section {
   display: none; }
   .prd.active-prd {
     display: block; }
+
+#page-mun-noi-tiet {
+  position: relative; }
+  @media screen and (max-width: 992px) {
+    #page-mun-noi-tiet .blk-img {
+      height: 100%; } }
+
+#page-da-stress {
+  position: relative; }
+  @media screen and (max-width: 992px) {
+    #page-da-stress .blk-img {
+      height: 100%; } }
+
+#page-tham-nam {
+  position: relative; }
+  @media screen and (max-width: 992px) {
+    #page-tham-nam .blk-img {
+      height: 100%; } }
