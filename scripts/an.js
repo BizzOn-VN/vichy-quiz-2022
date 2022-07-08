@@ -34,13 +34,13 @@ function showMessage(set_text_alert) {
     $(".text-alert").text(set_text_alert);
     $("#popup-alert").fancybox().trigger('click');
 }
-showMessage("Chào mừng bạn đến với Vichy");
+// showMessage("Chào mừng bạn đến với Vichy");
 
 
  var App = {
      set_min_height_section: function () {
      	if($(window).width()>992){
-     		var window_width=$(window).width()*0.3;
+     		var window_width=$(window).width()*0.45;
      		$(".page-nomal").css("min-height",window_width);
      		$(".blk-content").css("min-height",window_width);
      		$(".blk-img").css("min-height",window_width);
@@ -107,6 +107,9 @@ showMessage("Chào mừng bạn đến với Vichy");
 
      		var title_form_fill=$(this).attr("title-form-fill");
      		$(".title-form-fill").text(title_form_fill);
+
+            var title_form_fill_price=$(this).attr("title-form-fill-price");
+            $(".title-form-fill-price").text(title_form_fill_price);
      	})
      },
     progress_bar:function(){

@@ -122,7 +122,7 @@ section {
   position: relative; }
   .blk-content .logo {
     position: absolute;
-    top: 10%;
+    top: 9%;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -142,6 +142,9 @@ section {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  @media screen and (min-width: 992px) {
+    .blk-content {
+      padding-top: 4%; } }
   @media screen and (max-width: 992px) {
     .blk-content {
       width: 100%;
@@ -403,7 +406,7 @@ section {
     transform: scale3d(1, 1, 1); } }
 .khtn {
   position: absolute;
-  bottom: 5%;
+  bottom: 4%;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -457,7 +460,8 @@ section {
   text-align: center;
   padding: 0px 15%; }
   .title-question p {
-    font-size: 1.6em; }
+    font-size: 1.6em;
+    line-height: 1.4em; }
   @media screen and (max-width: 992px) {
     .title-question {
       padding: 0px 10%;
@@ -467,7 +471,7 @@ section {
         color: #FFF; }
       .title-question p {
         color: #FFF;
-        text-shadow: 3px 4px 4px #82abcf;
+        text-shadow: 3px 4px 4px #aa644f;
         font-size: 5.5vw; }
         .title-question p span {
           display: block; } }
@@ -515,19 +519,30 @@ section {
       .form-question form {
         margin-bottom: 9%; }
       .form-question input[type="radio"]:checked + label {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(244, 235, 233, 0.6);
         color: #FFF;
-        -webkit-box-shadow: 0px 3px 8px 1px #a9b4c0;
-                box-shadow: 0px 3px 8px 1px #a9b4c0; }
+        -webkit-box-shadow: 0px 3px 8px 1px #f4ebe9;
+                box-shadow: 0px 3px 8px 1px #f4ebe9; }
       .form-question label {
         font-family: 'SFUFutura';
         color: #FFF;
         font-size: 4.4vw;
         padding: 1.5% 10px;
-        text-shadow: 0px 0px 4px #6d859a; } }
+        text-shadow: 3px 2px 3px #c18f7f; } }
   @media screen and (max-width: 480px) {
     .form-question.form-quizz form {
       margin-bottom: 5%; } }
+
+@media screen and (max-width: 992px) {
+  .page-select .form-question input[type="radio"]:checked + label {
+    background: rgba(216, 230, 240, 0.7);
+    -webkit-box-shadow: 0px 3px 8px 1px #acc9df;
+            box-shadow: 0px 3px 8px 1px #acc9df;
+    text-shadow: 3px 2px 3px #779fbe; }
+  .page-select .form-question label {
+    text-shadow: 3px 2px 3px #acc9df; }
+  .page-select .title-question p {
+    text-shadow: 3px 4px 4px #9fc1da; } }
 
 .ico-control .ico {
   width: 10%;
@@ -716,6 +731,9 @@ section {
     .logo-center {
       width: 63%; } }
 
+@media screen and (min-width: 992px) {
+  .page-result .blk-caption {
+    margin-bottom: 1em; } }
 .blk-caption {
   position: relative;
   text-align: center; }
@@ -1002,6 +1020,9 @@ section {
       width: 100%;
       padding: 0% 0% 0% 0%; } }
 
+@media screen and (min-width: 992px) {
+  .product-info-da-stress {
+    margin-top: -4%; } }
 .btn-result {
   display: block;
   text-align: center;
@@ -1039,7 +1060,7 @@ section {
             transform: translateX(-50%);
     left: 50%;
     bottom: 3%;
-    width: 13%; }
+    width: 10%; }
   @media screen and (max-width: 992px) {
     .page-register {
       background: url(../images/bg-result.jpg) top center no-repeat #f0f0f0;
@@ -1057,7 +1078,7 @@ section {
         width: 17.1%; } }
 
 .caption-register .text-inner {
-  width: 50%;
+  width: 58%;
   margin: 0 auto;
   display: table; }
 .caption-register strong.title {
@@ -1212,7 +1233,7 @@ section {
       margin-top: -2vw; } }
 
 .text-product-da-tham-nam {
-  padding-top: 6.5vw; }
+  padding-top: 6.4vw; }
   .text-product-da-tham-nam span {
     text-align: center;
     display: block;
@@ -1245,7 +1266,13 @@ section {
 
 @media screen and (max-width: 992px) {
   .break-down {
-    display: block; } }
+    display: block; }
+
+  .title-form-fill {
+    font-size: 2.8vw; }
+
+  .title-form-fill-price {
+    font-size: 2.8vw; } }
 #the-le {
   overflow: hidden;
   padding: 44px 30px 44px 44px; }
@@ -1317,3 +1344,8 @@ section {
   #popup-alert .fancybox-button {
     width: 50px;
     height: 50px; }
+
+.prd {
+  display: none; }
+  .prd.active-prd {
+    display: block; }
