@@ -1388,3 +1388,9 @@ section {
 @media screen and (max-width: 992px) {
   .result-tham-nam .btn-result {
     padding-top: 2.5em; } }
+
+@media screen and (min-width: 992px) {
+  .result-noi-tiet-to .fl-right-result {
+    margin-top: -1%; }
+    .result-noi-tiet-to .fl-right-result .ul-left-result {
+      padding-top: 0px; } }
