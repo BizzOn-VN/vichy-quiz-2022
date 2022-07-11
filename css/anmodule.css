@@ -213,6 +213,32 @@ section {
       background: url(../images/bg-tham-nam-mb.jpg) no-repeat left top;
       -webkit-background-size: cover;
               background-size: cover; } }
+  @media screen and (min-width: 374.9px) and (max-width: 375.1px) {
+    .blk-img.bg-mun-noi-tiet {
+      background: url(../images/bg-mun-noi-tiet-ip7.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .blk-img.bg-da-stress {
+      background: url(../images/bg-da-stress-ip7.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .blk-img.bg-tham-nam {
+      background: url(../images/bg-tham-nam-ip7.jpg) no-repeat left top;
+      -webkit-background-size: cover;
+              background-size: cover; } }
+  @media screen and (min-width: 413.9px) and (max-width: 414.1px) {
+    .blk-img.bg-mun-noi-tiet {
+      background: url(../images/bg-mun-noi-tiet-ip7.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .blk-img.bg-da-stress {
+      background: url(../images/bg-da-stress-ip7.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .blk-img.bg-tham-nam {
+      background: url(../images/bg-tham-nam-ip7.jpg) no-repeat left top;
+      -webkit-background-size: cover;
+              background-size: cover; } }
 
 .btn-home {
   text-align: center; }
