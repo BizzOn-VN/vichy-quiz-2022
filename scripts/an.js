@@ -51,6 +51,10 @@ function showMessage(set_text_alert) {
      		$(".page-nomal").css("min-height",window_width);
      		$(".blk-content").css("min-height",window_width);
      		$(".blk-img").css("min-height",window_width);
+            
+            // $("#page-mun-noi-tiet .blk-content").css("min-height", window_width*1.4);
+            // $("#page-da-stress .blk-content").css("min-height", window_width*1.4);
+            // $("#page-tham-nam .blk-content").css("min-height", window_width*1.4);
      	}
      	if($(window).width()<480){
      		var window_width=$(window).width()*1.6;
