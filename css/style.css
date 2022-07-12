@@ -981,7 +981,7 @@ section {
         font-size: 0.8vw;
         text-transform: uppercase; }
         .ul-right-result li .ctn-inner span.percent {
-          font-size: 2vw; }
+          font-size: 2.5vw; }
     .ul-right-result li:last-child .ctn-inner:before {
       display: none; }
     .ul-right-result li:first-child .ctn-inner:before {
@@ -1042,7 +1042,7 @@ section {
   .fl-right-result .product-info {
     position: relative; }
     .fl-right-result .product-info .img {
-      width: 29%;
+      width: 31%;
       position: absolute;
       top: 0px;
       left: 56%;
@@ -1161,6 +1161,9 @@ section {
         font-size: 3.5vw;
         padding: 1.8vw 2.4vw; } }
 
+@media screen and (min-width: 992px) {
+  .form-register {
+    margin-top: 10px; } }
 .form-register .blk-input {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1186,6 +1189,7 @@ section {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
   .form-register .blk-input .md-row {
+    position: relative;
     margin: 0px 0px 1.3vw;
     width: 32%; }
     .form-register .blk-input .md-row input[type="text"] {
@@ -1294,10 +1298,17 @@ section {
 .error {
   font-size: 1vw;
   text-align: center;
+  color: red !important;
+  position: absolute;
+  bottom: -1.5vw;
+  display: block;
+  width: 100%;
+  text-align: left;
   color: red !important; }
   @media screen and (max-width: 992px) {
     .error {
-      font-size: 2.5vw; } }
+      font-size: 2.5vw;
+      bottom: -3.6vw; } }
 
 .logo-loreal a {
   display: inline-block;
@@ -1306,6 +1317,9 @@ section {
   margin-bottom: 1.5em; }
   .logo-loreal a img {
     width: 100%; }
+
+.break-down {
+  display: block; }
 
 @media screen and (max-width: 992px) {
   .break-down {
@@ -1413,10 +1427,70 @@ section {
 
 @media screen and (max-width: 992px) {
   .result-tham-nam .btn-result {
-    padding-top: 2.5em; } }
+    padding-top: 2.5em; }
+  .result-tham-nam .fl-right-result {
+    padding-top: 0.5rem; } }
 
 @media screen and (min-width: 992px) {
   .result-noi-tiet-to .fl-right-result {
     margin-top: -1%; }
     .result-noi-tiet-to .fl-right-result .ul-left-result {
       padding-top: 0px; } }
+
+.btn-see-more {
+  margin-top: 1rem;
+  text-align: center; }
+  .btn-see-more a {
+    display: inline-block;
+    color: #FFF;
+    background: #303030;
+    font-family: 'SFUFuturaBold';
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2vw;
+    padding: 1.2% 20px;
+    margin: 0.7rem 0px; }
+    .btn-see-more a:hover {
+      background: #40A959; }
+  .btn-see-more img {
+    display: inline-block;
+    margin: 0 auto !important;
+    width: 1.5vw !important; }
+  @media screen and (max-width: 992px) {
+    .btn-see-more a {
+      font-size: 3.2vw;
+      margin: 0.6rem 0px; }
+    .btn-see-more img {
+      width: 3.5vw !important; } }
+
+#success {
+  background: #FFF !important;
+  width: 40%; }
+  #success .content-popup {
+    margin-top: 1rem; }
+  #success .caption {
+    text-transform: uppercase;
+    color: #00a639;
+    font-size: 2vw; }
+  #success .fancybox-button svg {
+    border-radius: 50%; }
+  #success .fancybox-close-small {
+    padding: 3px;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 0.5rem;
+    right: 0.5rem; }
+  #success svg {
+    background: url(../images/ico-close.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+            background-size: 100%;
+    opacity: 1; }
+    #success svg path {
+      display: none; }
+  @media screen and (max-width: 992px) {
+    #success {
+      width: 90%; }
+      #success .caption {
+        font-size: 5vw; }
+      #success span {
+        font-size: 3.2vw; } }
