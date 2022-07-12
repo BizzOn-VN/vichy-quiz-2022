@@ -130,6 +130,8 @@ section {
             transform: translateX(-50%);
     width: 36%;
     min-width: 200px; }
+    .blk-content .logo a {
+      cursor: pointer; }
     .blk-content .logo img {
       width: 100%; }
     @media screen and (max-width: 992px) {
