@@ -1194,7 +1194,7 @@ section {
     position: relative;
     margin: 0px 0px 1.3vw;
     width: 32%; }
-    .form-register .blk-input .md-row input[type="text"] {
+    .form-register .blk-input .md-row input {
       width: 100%;
       height: 3.7vw;
       border: 1px solid #666666;
@@ -1266,7 +1266,7 @@ section {
           width: 39%; }
         .form-register .blk-input .md-row.mb-56 {
           width: 56%; }
-        .form-register .blk-input .md-row input[type="text"] {
+        .form-register .blk-input .md-row input {
           height: 6vw; }
         .form-register .blk-input .md-row label {
           font-size: 2.5vw; }
