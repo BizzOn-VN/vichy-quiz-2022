@@ -179,7 +179,8 @@ section {
       margin-bottom: 0.5vw; } }
 @media screen and (max-width: 480px) {
   .blk-center-home {
-    padding-top: 75%; }
+    position: relative;
+    top: 16%; }
     .blk-center-home span.futura_bold {
       font-size: 5.9em;
       line-height: 1.1em;
@@ -352,7 +353,7 @@ section {
     display: inline-block;
     width: 8%;
     min-width: 10px;
-    max-width: 30px;
+    max-width: 60px;
     margin: 0 auto; }
 
 @-webkit-keyframes bounceIn-1 {
@@ -477,6 +478,18 @@ section {
     left: 0px;
     display: table;
     margin: 0 auto; }
+
+@media screen and (min-width: 992px) {
+  .page-quizz .khtn {
+    bottom: 9%; }
+  .page-quizz .blk-content {
+    padding-top: 0px; } }
+
+@media screen and (min-width: 992px) {
+  .page-select .khtn {
+    bottom: 9%; }
+  .page-select .blk-content {
+    padding-top: 0px; } }
 
 .blk-question {
   position: relative;
@@ -798,6 +811,10 @@ section {
       color: #40A959;
       font-size: 3.4vw;
       line-height: 1.3em; }
+  .blk-caption .text .smd-desktop {
+    display: inline-block; }
+  .blk-caption .text .smd-mobile {
+    display: none; }
   @media screen and (max-width: 992px) {
     .blk-caption {
       padding-top: 30px; }
@@ -806,13 +823,18 @@ section {
         color: #000;
         font-size: 3.3vw;
         padding: 0.8% 30px;
-        border-radius: 5px; }
+        border-radius: 5px;
+        margin-bottom: 0.5rem; }
       .blk-caption .text p {
         font-size: 4.5vw;
         line-height: 1.2em; }
         .blk-caption .text p .hl-2 {
           font-size: 13.8vw;
-          line-height: 1.1em; } }
+          line-height: 1.1em; }
+      .blk-caption .text .smd-desktop {
+        display: none; }
+      .blk-caption .text .smd-mobile {
+        display: inline-block; } }
 
 .info-result .fl-left {
   float: left;
@@ -1129,7 +1151,7 @@ section {
 .caption-register strong.title {
   display: block;
   font-size: 1.5vw;
-  margin: 0px 0px 15px; }
+  margin: 0px 0px 0.7rem; }
 @media screen and (max-width: 992px) {
   .caption-register {
     width: 100%;
@@ -1155,7 +1177,8 @@ section {
     font-size: 1.5vw;
     display: table;
     margin: 0 auto;
-    border: none; }
+    border: none;
+    cursor: pointer; }
   @media screen and (max-width: 992px) {
     .btn-submit-register {
       padding: 2vw 0px 4vw; }
@@ -1205,6 +1228,31 @@ section {
       width: 100%;
       font-size: 1.1vw;
       margin-bottom: 0.3em; }
+    .form-register .blk-input .md-row .ui.dropdown:not(.button) > .default.text {
+      color: #333; }
+    .form-register .blk-input .md-row .ui.selection.dropdown {
+      min-height: auto;
+      font-size: 1vw;
+      border-radius: 0px;
+      width: 100%;
+      min-width: 100%;
+      height: 3.7vw;
+      border: 1px solid #666666;
+      padding: 1.1em 2.1em 0.78571429em 1em; }
+    .form-register .blk-input .md-row .ui.selection.dropdown > .dropdown.icon {
+      height: 100%;
+      right: 0px;
+      top: 0px;
+      margin: 0px; }
+    .form-register .blk-input .md-row .ui.dropdown > .dropdown.icon:before {
+      position: absolute;
+      top: 50%;
+      right: 0.9rem;
+      font-size: 1.2vw;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+           -o-transform: translateY(-50%);
+              transform: translateY(-50%); }
   .form-register .blk-input .text {
     text-align: center;
     padding: 0px 0px; }
@@ -1270,6 +1318,18 @@ section {
           height: 6vw; }
         .form-register .blk-input .md-row label {
           font-size: 2.5vw; }
+        .form-register .blk-input .md-row .ui.selection.dropdown {
+          height: 6vw;
+          padding: 0.58571429em 2.1em 0.58571429em 1em;
+          min-height: auto;
+          font-size: 2.5vw; }
+        .form-register .blk-input .md-row .ui.selection.dropdown > .dropdown.icon {
+          height: 100%;
+          right: 0px;
+          top: 0px;
+          margin: 0px; }
+        .form-register .blk-input .md-row .ui.dropdown > .dropdown.icon:before {
+          font-size: 2.5vw; }
     .form-register .text-fill p {
       font-size: 2.5vw; } }
 
@@ -1279,7 +1339,9 @@ section {
     display: block; }
   @media screen and (max-width: 992px) {
     .result-item.result-da-stress .blk-caption .info {
-      margin-top: -2vw; } }
+      margin-top: -2vw; }
+    .result-item.result-da-stress .btn-result {
+      margin-top: 3rem; } }
 
 .text-product-da-tham-nam {
   padding-top: 6.4vw; }
