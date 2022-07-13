@@ -21,7 +21,9 @@
 jQuery(document).on("ready",function () {
 	
 });
-
+$('.ui.dropdown')
+  .dropdown()
+;
  new WOW().init();
 $('.ui.checkbox').checkbox();
 $('[data-fancybox]').fancybox();
@@ -30,6 +32,7 @@ $(".content-the-le").mCustomScrollbar({
 });
 //gọi popup dăng ký thành công 
 
+// $("#success").fancybox().trigger('click');
 function showMessage(set_text_alert) {
     $(".text-alert").text(set_text_alert);
     $("#popup-alert").fancybox().trigger('click');
@@ -40,11 +43,11 @@ function showMessage(set_text_alert) {
  var App = {
      set_min_height_section: function () {
      	if($(window).width()>992){
-     		var window_width=$(window).width()*0.45;
+     		var window_width=$(window).width()*0.49;
      		$(".page-nomal").css("min-height",window_width);
      		$(".blk-content").css("min-height",window_width);
      		$(".blk-img").css("min-height",window_width);
-     		$("#page-register").css("min-height",$(window).width()*0.5);
+     		$("#page-register").css("min-height",$(window).width()*0.49);
      	}
      	if($(window).width()<992){
      		var window_width=$(window).width()*1.3;
