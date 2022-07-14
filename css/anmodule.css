@@ -1262,6 +1262,8 @@ section {
           margin: 0px; }
         .form-register .blk-input .md-row .ui.dropdown > .dropdown.icon:before {
           font-size: 2.5vw; }
+        .form-register .blk-input .md-row .ui.selection.dropdown .menu {
+          max-height: 16.01428571rem; }
     .form-register .text-fill p {
       font-size: 2.5vw; } }
 
