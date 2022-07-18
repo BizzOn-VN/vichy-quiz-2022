@@ -511,9 +511,11 @@ section {
     display: block; }
 
 .title-question {
-  margin-bottom: 25px;
   text-align: center;
   padding: 0px 15%; }
+  @media screen and (min-width: 992px) {
+    .title-question {
+      margin-bottom: 1.5rem; } }
   .title-question p {
     font-size: 1.6em;
     line-height: 1.4em; }
@@ -557,6 +559,9 @@ section {
     -webkit-transition-duration: 0.2s;
          -o-transition-duration: 0.2s;
             transition-duration: 0.2s; }
+    @media screen and (min-width: 992px) {
+      .form-question label {
+        padding: 2.7% 20px; } }
     .form-question label:hover {
       color: green; }
     .form-question label:last-child {
