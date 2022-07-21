@@ -945,7 +945,8 @@ section {
     .ul-left-result.ul-left-da-stress li {
       margin-bottom: 10%; }
   .ul-left-result.ul-left-da-tham-nam {
-    padding-top: 1vw; }
+    padding-top: 1vw;
+    width: 39%; }
   @media screen and (max-width: 992px) {
     .ul-left-result {
       width: 35%; }
@@ -981,7 +982,8 @@ section {
       .ul-left-result.ul-left-da-stress {
         padding-top: 7%; }
       .ul-left-result.ul-left-da-tham-nam {
-        padding-top: 7.6vw; } }
+        padding-top: 7.6vw;
+        width: 41%; } }
 
 .ul-right-result {
   width: 19.7%;
@@ -1021,18 +1023,20 @@ section {
     padding-top: 23%; }
   .ul-right-result.ul-right-tham-nam {
     width: 26%;
-    padding-top: 9vw; }
+    padding-top: 11vw; }
     .ul-right-result.ul-right-tham-nam .ctn-inner {
       font-size: 1.3vw; }
       .ul-right-result.ul-right-tham-nam .ctn-inner span {
         font-family: 'SFUFutura';
         text-align: center;
         font-size: 1.5vw;
-        display: block; }
+        display: block;
+        line-height: 1.2em; }
         .ul-right-result.ul-right-tham-nam .ctn-inner span.hl {
           font-size: 1.7vw; }
         .ul-right-result.ul-right-tham-nam .ctn-inner span.futura_bold {
-          font-size: 2.7vw; }
+          font-size: 2.8vw;
+          line-height: 1.1em; }
   @media screen and (max-width: 992px) {
     .ul-right-result.ul-right-da-stress {
       padding-top: 16%; }
@@ -1044,18 +1048,19 @@ section {
           font-size: 7vw; }
     .ul-right-result.ul-right-tham-nam {
       width: 30%;
-      padding-top: 20.8vw; }
+      padding-top: 24.8vw; }
       .ul-right-result.ul-right-tham-nam .ctn-inner {
         font-size: 1.3vw; }
         .ul-right-result.ul-right-tham-nam .ctn-inner span {
           font-family: 'SFUFutura';
           text-align: center;
           font-size: 3.4vw;
-          display: block; }
+          display: block;
+          line-height: 1.3em; }
           .ul-right-result.ul-right-tham-nam .ctn-inner span.hl {
-            font-size: 4.5vw; }
+            font-size: 4.7vw; }
           .ul-right-result.ul-right-tham-nam .ctn-inner span.futura_bold {
-            font-size: 6.5vw; }
+            font-size: 6.8vw; }
     .ul-right-result li .ctn-inner {
       padding: 0 0 2%; }
       .ul-right-result li .ctn-inner span {
@@ -1088,7 +1093,7 @@ section {
         left: 60%; }
       .fl-right-result .product-info .img.img-da-tham-nam {
         width: 30%;
-        left: 55%; }
+        left: 58%; }
   @media screen and (max-width: 992px) {
     .fl-right-result {
       width: 100%;
@@ -1385,15 +1390,15 @@ section {
       margin-top: 3rem; } }
 
 .text-product-da-tham-nam {
-  padding-top: 6.4vw; }
+  padding-top: 2vw; }
   .text-product-da-tham-nam span {
     text-align: center;
     display: block;
     line-height: 1.1em;
-    font-size: 1.9vw;
+    font-size: 1.8vw;
     display: block; }
     .text-product-da-tham-nam span.futura_bold {
-      font-size: 3.5vw; }
+      font-size: 3vw; }
   @media screen and (max-width: 992px) {
     .text-product-da-tham-nam span {
       font-size: 4.8vw; }
@@ -1628,3 +1633,13 @@ section {
     margin-bottom: 2.5vw; }
   .for_short_sreen_mb_1 .info-result .fl-left {
     margin-bottom: 1.5rem; } }
+.text-p-tn {
+  margin-top: 0.5rem; }
+  .text-p-tn span {
+    font-size: 1.1vw !important;
+    font-family: 'SFUFutura';
+    text-transform: uppercase;
+    line-height: 1.28em; }
+  @media screen and (max-width: 992px) {
+    .text-p-tn span {
+      font-size: 2.7vw !important; } }
