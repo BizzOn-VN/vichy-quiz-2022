@@ -839,9 +839,13 @@ section {
         display: inline-block; } }
 
 .info-result .fl-left {
+  text-align: justify;
   float: left;
   width: 50%;
   padding: 0% 7% 0% 0%; }
+  @media screen and (min-width: 992px) {
+    .info-result .fl-left {
+      font-size: 1.3vw; } }
   @media screen and (max-width: 992px) {
     .info-result .fl-left {
       width: 100%;
@@ -850,7 +854,8 @@ section {
       .info-result .fl-left p {
         font-size: 3.9vw;
         font-family: 'SFUFutura';
-        color: #000; } }
+        color: #000;
+        margin-bottom: 2rem; } }
 
 .ul-left-result {
   padding-top: 2%;
@@ -1532,10 +1537,8 @@ section {
     padding-top: 0.5rem; } }
 
 @media screen and (min-width: 992px) {
-  .result-noi-tiet-to .fl-right-result {
-    margin-top: -1%; }
-    .result-noi-tiet-to .fl-right-result .ul-left-result {
-      padding-top: 0px; } }
+  .result-noi-tiet-to .fl-right-result .ul-left-result {
+    padding-top: 0px; } }
 
 .btn-see-more {
   margin-top: 1rem;
@@ -1595,15 +1598,33 @@ section {
       #success span {
         font-size: 3.2vw; } }
 
-@media screen and (min-width: 374.9px) and (max-width: 375.1px) {
-  .result-tham-nam {
+@media screen and (max-width: 992px) {
+  .for_short_sreen_mb .header {
+    margin-top: -3.9vw; }
+  .for_short_sreen_mb .result-tham-nam {
     margin-top: -3.5rem; }
-
-  .result-da-stress {
-    margin-top: -4rem; } }
-@media screen and (min-width: 413.9px) and (max-width: 414.1px) {
-  .result-tham-nam {
+    .for_short_sreen_mb .result-tham-nam .info-result .fl-left p {
+      margin-bottom: 0.8rem; }
+      .for_short_sreen_mb .result-tham-nam .info-result .fl-left p:last-child {
+        margin-bottom: 0.5rem; } }
+  @media screen and (max-width: 992px) and (max-width: 992px) {
+    .for_short_sreen_mb .result-tham-nam .fl-right-result {
+      padding-top: 0rem; } }
+@media screen and (max-width: 992px) {
+  .for_short_sreen_mb .result-da-stress {
     margin-top: -3.5rem; }
+    .for_short_sreen_mb .result-da-stress .info-result .fl-left p {
+      margin-bottom: 0.8rem; }
+      .for_short_sreen_mb .result-da-stress .info-result .fl-left p:last-child {
+        margin-bottom: 0.5rem; }
+  .for_short_sreen_mb .result-noi-tiet-to {
+    margin-top: -3.5rem; }
+    .for_short_sreen_mb .result-noi-tiet-to .info-result .fl-left p {
+      margin-bottom: 0.8rem; }
+      .for_short_sreen_mb .result-noi-tiet-to .info-result .fl-left p:last-child {
+        margin-bottom: 0.5rem; }
 
-  .result-da-stress {
-    margin-top: -4rem; } }
+  .for_short_sreen_mb_1 .blk-caption {
+    margin-bottom: 2.5vw; }
+  .for_short_sreen_mb_1 .info-result .fl-left {
+    margin-bottom: 1.5rem; } }
