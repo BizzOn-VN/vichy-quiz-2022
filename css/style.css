@@ -1624,6 +1624,9 @@ section {
         margin-bottom: 0.5rem; }
   .for_short_sreen_mb .result-noi-tiet-to {
     margin-top: -3.5rem; }
+    .for_short_sreen_mb .result-noi-tiet-to .blk-caption {
+      width: 108%;
+      margin-left: -4%; }
     .for_short_sreen_mb .result-noi-tiet-to .info-result .fl-left p {
       margin-bottom: 0.8rem; }
       .for_short_sreen_mb .result-noi-tiet-to .info-result .fl-left p:last-child {
